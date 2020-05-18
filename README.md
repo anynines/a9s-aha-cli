@@ -19,3 +19,10 @@ $ export SLACK_URL=optional-slack-webhook-url
 
 $ a9s-aha-cli alert
 ```
+
+## Manual Release Building
+
+```shell
+git tag -a stable-0.1.0
+GOOS=darwin GOARCH=amd64 go build -ldflags "-X github.com/anynines/a9s-aha-cli/pkg/version.Version=stable-0.1.0"
+```
