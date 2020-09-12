@@ -6,7 +6,7 @@ The command line tool `a9s-aha-cli` is a little helper for the aha.io world.
 ## Installation
 
 ```shell
-$ brew tap anynines/a9s-aha-cli
+$ brew tap anynines/tap
 $ brew install a9s-aha-cli
 ```
 
